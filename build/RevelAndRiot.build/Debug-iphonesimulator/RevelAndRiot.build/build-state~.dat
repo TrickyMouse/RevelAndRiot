@@ -1,0 +1,1013 @@
+TRevelAndRiot
+v7
+r0
+t318133340.398078
+cCheck dependencies
+cProcessInfoPlistFile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/Info.plist" RevelAndRiot-Info.plist
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainWindow_iPhone.xib"
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/MainWindow_iPad.xib"
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.xib"
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/mainscreen.jpg iPhone/mainscreen.jpg
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.xib"
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/newsfooter.jpg iPhone/newsfooter.jpg
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/newsheader.jpg iPhone/newsheader.jpg
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.xib"
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.xib"
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/detailheader.jpg iPhone/detailheader.jpg
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/tablebackground.jpg iPhone/tablebackground.jpg
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/tablebackground-riot.jpg iPhone/tablebackground-riot.jpg
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.xib"
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/photobackground-detail.jpg iPhone/photobackground-detail.jpg
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/photobackground.jpg iPhone/photobackground.jpg
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.xib"
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/x_button_close.png iPhone/x_button_close.png
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.xib"
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/resourcesbackground.jpg iPhone/resourcesbackground.jpg
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.xib"
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/aboutbackground.jpg iPhone/aboutbackground.jpg
+cCpResource build/Debug-iphonesimulator/RevelAndRiot.app/contactbackground.jpg iPhone/contactbackground.jpg
+cCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.xib"
+cProcessPCH /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch.gch RevelAndRiot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/main.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AppDelegate_iPhone.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AppDelegate_iPad.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/MainViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/NewsViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/revelViewCell.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/DetailViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/PhotoViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/PhotoDetailController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/ResourceViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AboutViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/ContactViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot" normal i386
+cGenerateDSYMFile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app.dSYM" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot"
+cTouch "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMailComposeViewController.h
+c000000004CC6561F000000000000291C
+t1288066591
+s10524
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004CC6561F00000000000000CD
+t1288066591
+s205
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004CC6562D000000000009BEC0
+t1288066605
+s638656
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/RevelAndRiot_Prefix.pch
+c000000004D3F80AD00000000000000C1
+t1296007341
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/Shared/main.m
+c000000004D3F80AC000000000000016F
+t1296007340
+s367
+i<UIKit/UIKit.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app
+t1296440540
+s952
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app.dSYM
+t1296440540
+s102
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/AboutViewController.nib
+t1296440537
+s1797
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/ContactViewController.nib
+t1296440538
+s2586
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/DetailViewController.nib
+t1296440536
+s1862
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/Info.plist
+t1296440533
+s925
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/MainViewController.nib
+t1296440535
+s2786
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/MainWindow_iPad.nib
+t1296440534
+s982
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/MainWindow_iPhone.nib
+t1296440534
+s984
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/NewsViewController.nib
+t1296440535
+s3231
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/PhotoDetailController.nib
+t1296440536
+s2661
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/PhotoViewController.nib
+t1296440536
+s2311
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/PkgInfo
+t1296440533
+s8
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/ResourceViewController.nib
+t1296440537
+s1651
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot
+t1296440540
+s118900
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/aboutbackground.jpg
+t1296440537
+s17999
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/contactbackground.jpg
+t1296440537
+s54173
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/detailheader.jpg
+t1296440536
+s7187
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/mainscreen.jpg
+t1296440534
+s63210
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/newsfooter.jpg
+t1296440535
+s7548
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/newsheader.jpg
+t1296440535
+s11059
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/photobackground-detail.jpg
+t1296440536
+s14015
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/photobackground.jpg
+t1296440536
+s57899
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/resourcesbackground.jpg
+t1296440536
+s18875
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/revelViewCell.nib
+t1296440536
+s1993
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/revelViewCustomCell.nib
+t2
+s0
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/tablebackground-riot.jpg
+t1296440536
+s11046
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/tablebackground.jpg
+t1296440536
+s9266
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/x_button_close.png
+t1296440536
+s1679
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/�￿@
+t2
+s0
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AboutViewController.o
+t1296440540
+s71868
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AppDelegate_iPad.o
+t1296440539
+s48468
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AppDelegate_iPhone.o
+t1296440539
+s59172
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/ContactViewController.o
+t1296440540
+s59288
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/DetailViewController.o
+t1296440539
+s61120
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/MainViewController.o
+t1296440539
+s66584
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/NewsViewController.o
+t1296440539
+s92948
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/PhotoDetailController.o
+t1296440540
+s61856
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/PhotoViewController.o
+t1296440540
+s87596
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/ResourceViewController.o
+t1296440540
+s48648
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/RevelAndRiot.LinkFileList
+c000000004D461CD50000000000000839
+t1296440533
+s2105
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/main.o
+t1296440539
+s6376
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/revelViewCell.o
+t1296440539
+s41704
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/revelViewCustomCell.o
+t2
+s0
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/AppDelegate_iPad.h
+c000000004D3F80AD0000000000000149
+t1296007341
+s329
+i<UIKit/UIKit.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/AppDelegate_iPad.m
+c000000004D3F80AD00000000000006AF
+t1296007341
+s1711
+i"AppDelegate_iPad.h"
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/MainWindow_iPad.xib
+c000000004D3F80AD00000000000036E0
+t1296007341
+s14048
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.h
+c000000004D461B140000000000000473
+t1296440084
+s1139
+i<UIKit/UIKit.h>
+i"MainViewController.h"
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.m
+c000000004D461C900000000000001D11
+t1296440464
+s7441
+i"AboutViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.xib
+c000000004D461C890000000000005CE8
+t1296440457
+s23784
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AppDelegate_iPhone.h
+c000000004D40ECB800000000000002B1
+t1296100536
+s689
+i<UIKit/UIKit.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AppDelegate_iPhone.m
+c000000004D40ECBF0000000000000B90
+t1296100543
+s2960
+i"AppDelegate_iPhone.h"
+i"MainViewController.h"
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.h
+c000000004D45F95300000000000003D6
+t1296431443
+s982
+i<UIKit/UIKit.h>
+i"MainViewController.h"
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.m
+c000000004D45FB62000000000000111C
+t1296431970
+s4380
+i"ContactViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.xib
+c000000004D45FA1F00000000000080E7
+t1296431647
+s32999
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.h
+c000000004D409ADC00000000000002A4
+t1296079580
+s676
+i<UIKit/UIKit.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.m
+c000000004D409B790000000000000E8A
+t1296079737
+s3722
+i"DetailViewController.h"
+i"NewsViewController.h"
+i"AppDelegate_iPhone.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.xib
+c000000004D406BEE0000000000005E99
+t1296067566
+s24217
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.h
+c000000004D44A8C70000000000000649
+t1296345287
+s1609
+i<UIKit/UIKit.h>
+i"NewsViewController.h"
+i"PhotoViewController.h"
+i"ResourceViewController.h"
+i"AboutViewController.h"
+i"ContactViewController.h"
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.m
+c000000004D44A9000000000000001D93
+t1296345344
+s7571
+i"MainViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.xib
+c000000004D3F8B280000000000008A42
+t1296010024
+s35394
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainWindow_iPhone.xib
+c000000004D3F80AD000000000000390F
+t1296007341
+s14607
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.h
+c000000004D408C6E00000000000006F2
+t1296075886
+s1778
+i<UIKit/UIKit.h>
+i"MainViewController.h"
+i"revelViewCell.h"
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.m
+c000000004D46028B0000000000003260
+t1296433803
+s12896
+i"NewsViewController.h"
+i"DetailViewController.h"
+i"AppDelegate_iPhone.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.xib
+c000000004D40907F0000000000009953
+t1296076927
+s39251
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.h
+c000000004D4497370000000000000369
+t1296340791
+s873
+i<UIKit/UIKit.h>
+i"PhotoViewController.h"
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.m
+c000000004D4497750000000000000F70
+t1296340853
+s3952
+i"PhotoDetailController.h"
+i"PhotoViewController.h"
+i"AppDelegate_iPhone.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.xib
+c000000004D4499A30000000000008241
+t1296341411
+s33345
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.h
+c000000004D44790B00000000000005F0
+t1296333067
+s1520
+i<UIKit/UIKit.h>
+i"MainViewController.h"
+i"PhotoDetailController.h"
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.m
+c000000004D448F5B00000000000036D9
+t1296338779
+s14041
+i"PhotoViewController.h"
+i"MainViewController.h"
+i"AppDelegate_iPhone.h"
+i"PhotoDetailController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.xib
+c000000004D40DA770000000000007487
+t1296095863
+s29831
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.h
+c000000004D44A3F800000000000001C5
+t1296344056
+s453
+i<UIKit/UIKit.h>
+i"MainViewController.h"
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.m
+c000000004D44A4190000000000000AF9
+t1296344089
+s2809
+i"ResourceViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.xib
+c000000004D44A3CF0000000000005317
+t1296344015
+s21271
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/aboutbackground.jpg
+c000000004D44A149000000000000464F
+t1296343369
+s17999
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/contactbackground.jpg
+c000000004D44A0D8000000000000D39D
+t1296343256
+s54173
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/detailheader.jpg
+c000000004D4068630000000000001C13
+t1296066659
+s7187
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/mainscreen.jpg
+c000000004D3F84C7000000000000F6EA
+t1296008391
+s63210
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/newsfooter.jpg
+c000000004D3FA5010000000000001D7C
+t1296016641
+s7548
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/newsheader.jpg
+c000000004D3FA4D80000000000002B33
+t1296016600
+s11059
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/photobackground-detail.jpg
+c000000004D40D4DD00000000000036BF
+t1296094429
+s14015
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/photobackground.jpg
+c000000004D40D4C0000000000000E22B
+t1296094400
+s57899
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/resourcesbackground.jpg
+c000000004D44A19900000000000049BB
+t1296343449
+s18875
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.h
+c000000004D3FD2D3000000000000020C
+t1296028371
+s524
+i<UIKit/UIKit.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.m
+c000000004D3FCA0E00000000000002FB
+t1296026126
+s763
+i"revelViewCell.h"
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.xib
+c000000004D40906E0000000000005B97
+t1296076910
+s23447
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCustomCell.h
+c000000004D3FC55100000000000000F5
+t1296024913
+s245
+i<UIKit/UIKit.h>
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCustomCell.m
+c000000004D3FC551000000000000114F
+t1296024913
+s4431
+i"revelViewCustomCell.h"
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCustomCell.xib
+c000000004D3FC5510000000000001C84
+t1296024913
+s7300
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/tablebackground-riot.jpg
+c000000004D408B480000000000002B26
+t1296075592
+s11046
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/tablebackground.jpg
+c000000004D4089AC0000000000002432
+t1296075180
+s9266
+
+N/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/x_button_close.png
+c000000004D449190000000000000068F
+t1296339344
+s1679
+
+N/var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch.gch
+t1296440539
+s15453392
+
+NRevelAndRiot-Info.plist
+c000000004D3F80AD0000000000000569
+t1296007341
+s1385
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318133333#318133333#0(0"0(0#1#0"8637837664#0"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AboutViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133340.084913
+e318133340.281558
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AboutViewController.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.m318133340#318133340#0(0"0(0#0#97"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.m8628376704#2403"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AboutViewController.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AppDelegate_iPad.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133339.399235
+e318133339.522307
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AppDelegate_iPad.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/AppDelegate_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/AppDelegate_iPad.m318133339#318133339#0(0"0(0#0#92"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/AppDelegate_iPad.m8599890240#2395"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/AppDelegate_iPad.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AppDelegate_iPad.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AppDelegate_iPhone.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133339.331313
+e318133339.492157
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AppDelegate_iPhone.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AppDelegate_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AppDelegate_iPhone.m318133339#318133339#0(0"0(0#0#96"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AppDelegate_iPhone.m8620114144#2401"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AppDelegate_iPhone.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/AppDelegate_iPhone.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/ContactViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133340.144718
+e318133340.275780
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/ContactViewController.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.m318133340#318133340#0(0"0(0#0#99"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.m8622611200#2407"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/ContactViewController.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/DetailViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133339.745886
+e318133339.944322
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/DetailViewController.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.m318133339#318133339#0(0"0(0#0#98"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.m8620652576#2405"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/DetailViewController.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/MainViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133339.492500
+e318133339.656967
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/MainViewController.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.m318133339#318133339#0(0"0(0#0#96"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.m8636952704#2401"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/MainViewController.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/NewsViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133339.522436
+e318133339.745767
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/NewsViewController.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.m318133339#318133339#0(0"0(0#0#96"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.m8634598656#2401"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/NewsViewController.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/PhotoDetailController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133339.944444
+e318133340.084782
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/PhotoDetailController.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.m318133339#318133340#0(0"0(0#0#99"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.m8637593536#2407"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/PhotoDetailController.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/PhotoViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133339.754290
+e318133340.018249
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/PhotoViewController.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.m318133339#318133340#0(0"0(0#0#97"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.m8609545664#2403"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/PhotoViewController.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/ResourceViewController.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133340.018372
+e318133340.144591
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/ResourceViewController.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.m318133340#318133340#0(0"0(0#0#100"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.m8635562176#2409"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/ResourceViewController.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/main.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133339.329882
+e318133339.399065
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/main.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/Shared/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/Shared/main.m318133339#318133339#0(0"0(0#0#82"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/Shared/main.m8621627712#2373"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/Shared/main.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/revelViewCell.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133339.657088
+e318133339.754162
+r1
+xCompileC
+xbuild/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/revelViewCell.o
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.m318133339#318133339#0(0"0(0#0#91"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.m8622286464#2391"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -include /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.m" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/revelViewCell.o"0#
+
+CCompileC build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/revelViewCustomCell.o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCustomCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/MainWindow_iPad.xib"
+s318133333.450189
+e318133334.334444
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib318133333#318133334#0(0"0(0#0#93"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/MainWindow_iPad.xib8635915872#686"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/MainWindow_iPad.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPad/MainWindow_iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.xib"
+s318133336.980869
+e318133337.679417
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.xib
+lSLF07#2@41"CompileXIB iPhone/AboutViewController.xib318133336#318133337#0(0"0(0#0#99"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.xib8621093120#696"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/AboutViewController.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/AboutViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.xib"
+s318133337.683774
+e318133338.157894
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.xib
+lSLF07#2@43"CompileXIB iPhone/ContactViewController.xib318133337#318133338#0(0"0(0#0#101"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.xib8634923872#700"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/ContactViewController.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ContactViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.xib"
+s318133335.512187
+e318133336.201879
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.xib
+lSLF07#2@42"CompileXIB iPhone/DetailViewController.xib318133335#318133336#0(0"0(0#0#100"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.xib8634993184#698"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/DetailViewController.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/DetailViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.xib"
+s318133334.334555
+e318133335.453675
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.xib
+lSLF07#2@40"CompileXIB iPhone/MainViewController.xib318133334#318133335#0(0"0(0#0#98"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.xib8627762624#694"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/MainViewController.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainWindow_iPhone.xib"
+s318133333.443800
+e318133334.337947
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib318133333#318133334#0(0"0(0#0#97"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainWindow_iPhone.xib8637061280#692"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/MainWindow_iPhone.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/MainWindow_iPhone.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.xib"
+s318133334.345616
+e318133335.512075
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.xib
+lSLF07#2@40"CompileXIB iPhone/NewsViewController.xib318133334#318133335#0(0"0(0#0#98"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.xib8620626656#694"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/NewsViewController.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/NewsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.xib"
+s318133336.253932
+e318133336.975653
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.xib
+lSLF07#2@43"CompileXIB iPhone/PhotoDetailController.xib318133336#318133336#0(0"0(0#0#101"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.xib8634873600#700"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/PhotoDetailController.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoDetailController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.xib"
+s318133336.206077
+e318133336.918367
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.xib
+lSLF07#2@41"CompileXIB iPhone/PhotoViewController.xib318133336#318133336#0(0"0(0#0#99"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.xib8639487680#696"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/PhotoViewController.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/PhotoViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.xib"
+s318133336.919407
+e318133337.697773
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.xib
+lSLF07#2@44"CompileXIB iPhone/ResourceViewController.xib318133336#318133337#0(0"0(0#0#102"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.xib8623477728#702"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/ResourceViewController.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/ResourceViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.xib"
+s318133335.455665
+e318133336.250565
+r1
+xCompileXIB
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.xib
+lSLF07#2@35"CompileXIB iPhone/revelViewCell.xib318133335#318133336#0(0"0(0#0#93"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.xib8637537760#684"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/revelViewCell.nib" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCell.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/revelViewCustomCell.xib"
+r0
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/aboutbackground.jpg iPhone/aboutbackground.jpg
+s318133337.679524
+e318133337.702805
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/aboutbackground.jpg
+xiPhone/aboutbackground.jpg
+lSLF07#2@31"Copy iPhone/aboutbackground.jpg318133337#318133337#0(0"0(0#0#95"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/aboutbackground.jpg8637823296#585"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/aboutbackground.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/contactbackground.jpg iPhone/contactbackground.jpg
+s318133337.680723
+e318133337.708938
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/contactbackground.jpg
+xiPhone/contactbackground.jpg
+lSLF07#2@33"Copy iPhone/contactbackground.jpg318133337#318133337#0(0"0(0#0#97"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/contactbackground.jpg8637054496#587"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/contactbackground.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/detailheader.jpg iPhone/detailheader.jpg
+s318133336.201990
+e318133336.219667
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/detailheader.jpg
+xiPhone/detailheader.jpg
+lSLF07#2@28"Copy iPhone/detailheader.jpg318133336#318133336#0(0"0(0#0#92"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/detailheader.jpg8620220224#582"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/detailheader.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/mainscreen.jpg iPhone/mainscreen.jpg
+s318133334.338047
+e318133334.480996
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/mainscreen.jpg
+xiPhone/mainscreen.jpg
+lSLF07#2@26"Copy iPhone/mainscreen.jpg318133334#318133334#0(0"0(0#0#90"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/mainscreen.jpg8625057792#580"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/mainscreen.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/newsfooter.jpg iPhone/newsfooter.jpg
+s318133335.453952
+e318133335.484007
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/newsfooter.jpg
+xiPhone/newsfooter.jpg
+lSLF07#2@26"Copy iPhone/newsfooter.jpg318133335#318133335#0(0"0(0#0#90"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/newsfooter.jpg8634982496#580"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/newsfooter.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/newsheader.jpg iPhone/newsheader.jpg
+s318133335.454874
+e318133335.484197
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/newsheader.jpg
+xiPhone/newsheader.jpg
+lSLF07#2@26"Copy iPhone/newsheader.jpg318133335#318133335#0(0"0(0#0#90"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/newsheader.jpg8620624768#580"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/newsheader.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/photobackground-detail.jpg iPhone/photobackground-detail.jpg
+s318133336.250674
+e318133336.271306
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/photobackground-detail.jpg
+xiPhone/photobackground-detail.jpg
+lSLF07#2@38"Copy iPhone/photobackground-detail.jpg318133336#318133336#0(0"0(0#0#102"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/photobackground-detail.jpg8637296608#592"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/photobackground-detail.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/photobackground.jpg iPhone/photobackground.jpg
+s318133336.252014
+e318133336.271459
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/photobackground.jpg
+xiPhone/photobackground.jpg
+lSLF07#2@31"Copy iPhone/photobackground.jpg318133336#318133336#0(0"0(0#0#95"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/photobackground.jpg8636681696#585"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/photobackground.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/resourcesbackground.jpg iPhone/resourcesbackground.jpg
+s318133336.976450
+e318133337.001156
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/resourcesbackground.jpg
+xiPhone/resourcesbackground.jpg
+lSLF07#2@35"Copy iPhone/resourcesbackground.jpg318133336#318133337#0(0"0(0#0#99"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/resourcesbackground.jpg8621704160#589"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/resourcesbackground.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/tablebackground-riot.jpg iPhone/tablebackground-riot.jpg
+s318133336.204129
+e318133336.227656
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/tablebackground-riot.jpg
+xiPhone/tablebackground-riot.jpg
+lSLF07#2@36"Copy iPhone/tablebackground-riot.jpg318133336#318133336#0(0"0(0#0#100"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/tablebackground-riot.jpg8601049984#590"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/tablebackground-riot.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/tablebackground.jpg iPhone/tablebackground.jpg
+s318133336.203195
+e318133336.240628
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/tablebackground.jpg
+xiPhone/tablebackground.jpg
+lSLF07#2@31"Copy iPhone/tablebackground.jpg318133336#318133336#0(0"0(0#0#95"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/tablebackground.jpg8610360608#585"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/tablebackground.jpg" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CCpResource build/Debug-iphonesimulator/RevelAndRiot.app/x_button_close.png iPhone/x_button_close.png
+s318133336.918479
+e318133336.946565
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RevelAndRiot.app/x_button_close.png
+xiPhone/x_button_close.png
+lSLF07#2@30"Copy iPhone/x_button_close.png318133336#318133336#0(0"0(0#0#94"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/x_button_close.png8628142912#584"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/iPhone/x_button_close.png" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+
+CGenerateDSYMFile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app.dSYM" "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot"
+s318133340.341421
+e318133340.392289
+r1
+xGenerateDSYMFile
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app.dSYM
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/RevelAndRiot.app.dSYM build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot318133340#318133340#0(0"0(0#0#126"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot8628198272#494"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot" -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app.dSYM"0#
+
+CLd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot" normal i386
+s318133340.281669
+e318133340.341306
+r1
+xLd
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot
+xnormal
+xi386
+lSLF07#2@131"Link /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot318133340#318133340#0(0"0(0#0#0"8620654368#1159"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" -filelist "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/Objects-normal/i386/RevelAndRiot.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework SystemConfiguration -framework MessageUI -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/RevelAndRiot"0#
+
+CProcessInfoPlistFile "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/Info.plist" RevelAndRiot-Info.plist
+s318133333.404492
+e318133333.443685
+r1
+xProcessInfoPlistFile
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/Info.plist
+xRevelAndRiot-Info.plist
+lSLF07#2@31"Process RevelAndRiot-Info.plist318133333#318133333#0(0"0(0#0#92"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/RevelAndRiot-Info.plist8610287680#590"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility RevelAndRiot-Info.plist -genpkginfo "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app/Info.plist"0#
+
+CProcessPCH /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch.gch RevelAndRiot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318133338.158029
+e318133339.329558
+r1
+xProcessPCH
+x/var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch.gch
+xRevelAndRiot_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile RevelAndRiot_Prefix.pch318133338#318133339#0(0"0(0#0#92"/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/RevelAndRiot_Prefix.pch8624935392#2221"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-generated-files.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-own-target-headers.hmap" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-all-target-headers.hmap" -iquote "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/RevelAndRiot-project-headers.hmap" "-F/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/include" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources/i386" "-I/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/RevelAndRiot.build/Debug-iphonesimulator/RevelAndRiot.build/DerivedSources" -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/RevelAndRiot_Prefix.pch" -o /var/folders/Jv/JvacQt6LHUO8PmVjKKF9lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RevelAndRiot_Prefix-bruvmroakkmyimbtukdfauieysbi/RevelAndRiot_Prefix.pch.gch0#
+
+CTouch "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"
+s318133340.392616
+e318133340.398022
+r1
+xTouch
+x/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app
+lSLF07#2@119"Touch /Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app318133340#318133340#0(0"0(0#0#0"8599460160#347"    cd "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/gracchus60/Desktop/Current/iphone/Revel and Riot/RevelAndRiot/build/Debug-iphonesimulator/RevelAndRiot.app"0#
+

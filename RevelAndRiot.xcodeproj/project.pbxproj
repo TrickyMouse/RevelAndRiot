@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
+		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
+		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
+		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		C600310F12F62ECC00E46CC1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C600310E12F62ECC00E46CC1 /* SystemConfiguration.framework */; };
+		C600311312F62ED400E46CC1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C600311212F62ED400E46CC1 /* MessageUI.framework */; };
+		C6619A7B12FD0BD8006340FE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C6619A7A12FD0BD8006340FE /* Reachability.m */; };
+		C671DDC812FB4C7100289CA0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C671DDC712FB4C7100289CA0 /* Default.png */; };
+		C683C84412F1250300420742 /* PhotoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C683C84212F1250300420742 /* PhotoDetailController.m */; };
+		C683C84512F1250300420742 /* PhotoDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C683C84312F1250300420742 /* PhotoDetailController.xib */; };
+		C6AEB51312F109C20088AE06 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AEB51112F109C20088AE06 /* PhotoViewController.m */; };
+		C6AEB51412F109C20088AE06 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6AEB51212F109C20088AE06 /* PhotoViewController.xib */; };
+		C6AEB51812F10EA00088AE06 /* photobackground-detail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6AEB51612F10EA00088AE06 /* photobackground-detail.jpg */; };
+		C6AEB51912F10EA00088AE06 /* photobackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6AEB51712F10EA00088AE06 /* photobackground.jpg */; };
+		C6B43A8B1306328700AD58A1 /* MainViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B43A891306328700AD58A1 /* MainViewController_iPad.m */; };
+		C6B43A8C1306328700AD58A1 /* MainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B43A8A1306328700AD58A1 /* MainViewController_iPad.xib */; };
+		C6B43AD01306363900AD58A1 /* mainView_iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B43ACF1306363900AD58A1 /* mainView_iPad.jpg */; };
+		C6B43AF7130637F100AD58A1 /* NewsViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B43AF5130637F100AD58A1 /* NewsViewController_iPad.m */; };
+		C6B43AF8130637F100AD58A1 /* NewsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B43AF6130637F100AD58A1 /* NewsViewController_iPad.xib */; };
+		C6B43B1913063B0900AD58A1 /* newsView_iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B43B1813063B0900AD58A1 /* newsView_iPad.jpg */; };
+		C6B43B4A13063EBC00AD58A1 /* revelViewCell_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B43B4913063EBC00AD58A1 /* revelViewCell_iPad.m */; };
+		C6B43B4D13063F0900AD58A1 /* revelViewCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B43B4C13063F0900AD58A1 /* revelViewCell_iPad.xib */; };
+		C6B43BA51306495400AD58A1 /* tablebackground_revel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B43BA31306495400AD58A1 /* tablebackground_revel.jpg */; };
+		C6B43BA61306495400AD58A1 /* tablebackground_riot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B43BA41306495400AD58A1 /* tablebackground_riot.jpg */; };
+		C6B43C0813064F0800AD58A1 /* detailView_iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B43C0713064F0800AD58A1 /* detailView_iPad.jpg */; };
+		C6B43C0D1306501600AD58A1 /* DetailViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B43C0B1306501600AD58A1 /* DetailViewController_iPad.m */; };
+		C6B43C0E1306501600AD58A1 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B43C0C1306501600AD58A1 /* DetailViewController_iPad.xib */; };
+		C6B43C5E1306558100AD58A1 /* PhotoViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B43C5C1306558100AD58A1 /* PhotoViewController_iPad.m */; };
+		C6B43C5F1306558100AD58A1 /* PhotoViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B43C5D1306558100AD58A1 /* PhotoViewController_iPad.xib */; };
+		C6B43C761306574900AD58A1 /* photoView_iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B43C751306574900AD58A1 /* photoView_iPad.jpg */; };
+		C6B43C881306585C00AD58A1 /* PhotoDetailController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B43C861306585C00AD58A1 /* PhotoDetailController_iPad.m */; };
+		C6B43C891306585C00AD58A1 /* PhotoDetailController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B43C871306585C00AD58A1 /* PhotoDetailController_iPad.xib */; };
+		C6B43C8B1306589F00AD58A1 /* PhotoDetail_iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B43C8A1306589F00AD58A1 /* PhotoDetail_iPad.jpg */; };
+		C6B43CD413065C3A00AD58A1 /* ResourceViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B43CD213065C3A00AD58A1 /* ResourceViewController_iPad.m */; };
+		C6B43CD513065C3A00AD58A1 /* ResourceViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B43CD313065C3A00AD58A1 /* ResourceViewController_iPad.xib */; };
+		C6B43CE613065D6800AD58A1 /* resourceView_iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B43CE513065D6800AD58A1 /* resourceView_iPad.jpg */; };
+		C6B43D001306628700AD58A1 /* AboutViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B43CFE1306628700AD58A1 /* AboutViewController_iPad.m */; };
+		C6B43D011306628700AD58A1 /* AboutViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B43CFF1306628700AD58A1 /* AboutViewController_iPad.xib */; };
+		C6B43D03130662D300AD58A1 /* AboutView_iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B43D02130662D300AD58A1 /* AboutView_iPad.jpg */; };
+		C6B43D2F1306660100AD58A1 /* contactView_iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B43D2E1306660100AD58A1 /* contactView_iPad.jpg */; };
+		C6B43D341306661D00AD58A1 /* ContactViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B43D321306661D00AD58A1 /* ContactViewController_iPad.m */; };
+		C6B43D351306661D00AD58A1 /* ContactViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B43D331306661D00AD58A1 /* ContactViewController_iPad.xib */; };
+		C6B43D8813066E5400AD58A1 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B43D8713066E5400AD58A1 /* Default-Portrait.png */; };
+		C6B43D9D13066F8400AD58A1 /* Default-PortraitUpsideDown.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B43D9C13066F8400AD58A1 /* Default-PortraitUpsideDown.png */; };
+		C6B980F312EFB8650030AE19 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B980F112EFB8650030AE19 /* MainViewController.m */; };
+		C6B980F412EFB8650030AE19 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B980F212EFB8650030AE19 /* MainViewController.xib */; };
+		C6B9812412EFBC6D0030AE19 /* mainscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B9812312EFBC6D0030AE19 /* mainscreen.jpg */; };
+		C6B981AA12EFC5E60030AE19 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B981A812EFC5E60030AE19 /* NewsViewController.m */; };
+		C6B981AB12EFC5E60030AE19 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B981A912EFC5E60030AE19 /* NewsViewController.xib */; };
+		C6B9822012EFCDDF0030AE19 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B9821F12EFCDDF0030AE19 /* QuartzCore.framework */; };
+		C6B9824E12EFDCD70030AE19 /* newsfooter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B9824C12EFDCD70030AE19 /* newsfooter.jpg */; };
+		C6B9824F12EFDCD70030AE19 /* newsheader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B9824D12EFDCD70030AE19 /* newsheader.jpg */; };
+		C6B9831012EFFE360030AE19 /* revelViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B9830F12EFFE360030AE19 /* revelViewCell.m */; };
+		C6B9831312F001C70030AE19 /* revelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B9831212F001C70030AE19 /* revelViewCell.xib */; };
+		C6B983A212F08B060030AE19 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B983A012F08B060030AE19 /* DetailViewController.m */; };
+		C6B983A312F08B060030AE19 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B983A112F08B060030AE19 /* DetailViewController.xib */; };
+		C6B984A912F0A04E0030AE19 /* detailheader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B984A812F0A04E0030AE19 /* detailheader.jpg */; };
+		C6B9860412F0C1930030AE19 /* tablebackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B9860312F0C1930030AE19 /* tablebackground.jpg */; };
+		C6B9861212F0C2DF0030AE19 /* tablebackground-riot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B9861112F0C2DF0030AE19 /* tablebackground-riot.jpg */; };
+		C6D6181412FC84FD005C2456 /* list-placeholder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C6D6181212FC84FD005C2456 /* list-placeholder.jpeg */; };
+		C6D6181512FC84FE005C2456 /* send.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C6D6181312FC84FD005C2456 /* send.jpeg */; };
+		C6DEE3F612F4C92E001F98E2 /* x_button_close.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DEE3F512F4C92E001F98E2 /* x_button_close.png */; };
+		C6DEE46E12F4D990001F98E2 /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DEE46C12F4D990001F98E2 /* ResourceViewController.m */; };
+		C6DEE46F12F4D990001F98E2 /* ResourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6DEE46D12F4D990001F98E2 /* ResourceViewController.xib */; };
+		C6DEE47712F4DA5C001F98E2 /* resourcesbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6DEE47612F4DA5C001F98E2 /* resourcesbackground.jpg */; };
+		C6DEE4B712F4DC9D001F98E2 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DEE4B512F4DC9D001F98E2 /* AboutViewController.m */; };
+		C6DEE4B812F4DC9D001F98E2 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6DEE4B612F4DC9D001F98E2 /* AboutViewController.xib */; };
+		C6DEE4C912F4DF61001F98E2 /* aboutbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6DEE4C712F4DF61001F98E2 /* aboutbackground.jpg */; };
+		C6DEE4CA12F4DF61001F98E2 /* contactbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6DEE4C812F4DF61001F98E2 /* contactbackground.jpg */; };
+		C6DEE4DB12F4DFD3001F98E2 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DEE4D912F4DFD3001F98E2 /* ContactViewController.m */; };
+		C6DEE4DC12F4DFD3001F98E2 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6DEE4DA12F4DFD3001F98E2 /* ContactViewController.xib */; };
+		C6F6705712F9058D00F32F45 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F6705512F9058D00F32F45 /* Icon-72.png */; };
+		C6F6705812F9058D00F32F45 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F6705612F9058D00F32F45 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* RevelAndRiot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevelAndRiot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		2860E32B111B888700E27156 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
+		2860E32C111B888700E27156 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
+		2860E32D111B888700E27156 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* RevelAndRiot_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevelAndRiot_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* RevelAndRiot-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RevelAndRiot-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C600310E12F62ECC00E46CC1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C600311212F62ED400E46CC1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C6619A7912FD0BD8006340FE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = iPhone/Reachability.h; sourceTree = "<group>"; };
+		C6619A7A12FD0BD8006340FE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = iPhone/Reachability.m; sourceTree = "<group>"; };
+		C671DDC712FB4C7100289CA0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C683C84112F1250300420742 /* PhotoDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailController.h; sourceTree = "<group>"; };
+		C683C84212F1250300420742 /* PhotoDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailController.m; sourceTree = "<group>"; };
+		C683C84312F1250300420742 /* PhotoDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetailController.xib; sourceTree = "<group>"; };
+		C6AEB51012F109C20088AE06 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		C6AEB51112F109C20088AE06 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		C6AEB51212F109C20088AE06 /* PhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		C6AEB51612F10EA00088AE06 /* photobackground-detail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photobackground-detail.jpg"; sourceTree = "<group>"; };
+		C6AEB51712F10EA00088AE06 /* photobackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photobackground.jpg; sourceTree = "<group>"; };
+		C6B43A881306328700AD58A1 /* MainViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController_iPad.h; sourceTree = "<group>"; };
+		C6B43A891306328700AD58A1 /* MainViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController_iPad.m; sourceTree = "<group>"; };
+		C6B43A8A1306328700AD58A1 /* MainViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController_iPad.xib; sourceTree = "<group>"; };
+		C6B43ACF1306363900AD58A1 /* mainView_iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainView_iPad.jpg; sourceTree = "<group>"; };
+		C6B43AF4130637F100AD58A1 /* NewsViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController_iPad.h; sourceTree = "<group>"; };
+		C6B43AF5130637F100AD58A1 /* NewsViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController_iPad.m; sourceTree = "<group>"; };
+		C6B43AF6130637F100AD58A1 /* NewsViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController_iPad.xib; sourceTree = "<group>"; };
+		C6B43B1813063B0900AD58A1 /* newsView_iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newsView_iPad.jpg; sourceTree = "<group>"; };
+		C6B43B4813063EBC00AD58A1 /* revelViewCell_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revelViewCell_iPad.h; sourceTree = "<group>"; };
+		C6B43B4913063EBC00AD58A1 /* revelViewCell_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = revelViewCell_iPad.m; sourceTree = "<group>"; };
+		C6B43B4C13063F0900AD58A1 /* revelViewCell_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = revelViewCell_iPad.xib; sourceTree = "<group>"; };
+		C6B43BA31306495400AD58A1 /* tablebackground_revel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tablebackground_revel.jpg; sourceTree = "<group>"; };
+		C6B43BA41306495400AD58A1 /* tablebackground_riot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tablebackground_riot.jpg; sourceTree = "<group>"; };
+		C6B43C0713064F0800AD58A1 /* detailView_iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detailView_iPad.jpg; sourceTree = "<group>"; };
+		C6B43C0A1306501600AD58A1 /* DetailViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController_iPad.h; sourceTree = "<group>"; };
+		C6B43C0B1306501600AD58A1 /* DetailViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController_iPad.m; sourceTree = "<group>"; };
+		C6B43C0C1306501600AD58A1 /* DetailViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		C6B43C5B1306558100AD58A1 /* PhotoViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController_iPad.h; sourceTree = "<group>"; };
+		C6B43C5C1306558100AD58A1 /* PhotoViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController_iPad.m; sourceTree = "<group>"; };
+		C6B43C5D1306558100AD58A1 /* PhotoViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoViewController_iPad.xib; sourceTree = "<group>"; };
+		C6B43C751306574900AD58A1 /* photoView_iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photoView_iPad.jpg; sourceTree = "<group>"; };
+		C6B43C851306585C00AD58A1 /* PhotoDetailController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailController_iPad.h; sourceTree = "<group>"; };
+		C6B43C861306585C00AD58A1 /* PhotoDetailController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailController_iPad.m; sourceTree = "<group>"; };
+		C6B43C871306585C00AD58A1 /* PhotoDetailController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetailController_iPad.xib; sourceTree = "<group>"; };
+		C6B43C8A1306589F00AD58A1 /* PhotoDetail_iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PhotoDetail_iPad.jpg; sourceTree = "<group>"; };
+		C6B43CD113065C3A00AD58A1 /* ResourceViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController_iPad.h; sourceTree = "<group>"; };
+		C6B43CD213065C3A00AD58A1 /* ResourceViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceViewController_iPad.m; sourceTree = "<group>"; };
+		C6B43CD313065C3A00AD58A1 /* ResourceViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResourceViewController_iPad.xib; sourceTree = "<group>"; };
+		C6B43CE513065D6800AD58A1 /* resourceView_iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resourceView_iPad.jpg; sourceTree = "<group>"; };
+		C6B43CFD1306628700AD58A1 /* AboutViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController_iPad.h; sourceTree = "<group>"; };
+		C6B43CFE1306628700AD58A1 /* AboutViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController_iPad.m; sourceTree = "<group>"; };
+		C6B43CFF1306628700AD58A1 /* AboutViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController_iPad.xib; sourceTree = "<group>"; };
+		C6B43D02130662D300AD58A1 /* AboutView_iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AboutView_iPad.jpg; sourceTree = "<group>"; };
+		C6B43D2E1306660100AD58A1 /* contactView_iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contactView_iPad.jpg; sourceTree = "<group>"; };
+		C6B43D311306661D00AD58A1 /* ContactViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController_iPad.h; sourceTree = "<group>"; };
+		C6B43D321306661D00AD58A1 /* ContactViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController_iPad.m; sourceTree = "<group>"; };
+		C6B43D331306661D00AD58A1 /* ContactViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactViewController_iPad.xib; sourceTree = "<group>"; };
+		C6B43D8713066E5400AD58A1 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		C6B43D9C13066F8400AD58A1 /* Default-PortraitUpsideDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-PortraitUpsideDown.png"; sourceTree = "<group>"; };
+		C6B980F012EFB8650030AE19 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C6B980F112EFB8650030AE19 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C6B980F212EFB8650030AE19 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C6B9812312EFBC6D0030AE19 /* mainscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainscreen.jpg; sourceTree = "<group>"; };
+		C6B981A712EFC5E60030AE19 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		C6B981A812EFC5E60030AE19 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		C6B981A912EFC5E60030AE19 /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		C6B9821F12EFCDDF0030AE19 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C6B9824C12EFDCD70030AE19 /* newsfooter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newsfooter.jpg; sourceTree = "<group>"; };
+		C6B9824D12EFDCD70030AE19 /* newsheader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newsheader.jpg; sourceTree = "<group>"; };
+		C6B9830E12EFFE360030AE19 /* revelViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revelViewCell.h; sourceTree = "<group>"; };
+		C6B9830F12EFFE360030AE19 /* revelViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = revelViewCell.m; sourceTree = "<group>"; };
+		C6B9831212F001C70030AE19 /* revelViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = revelViewCell.xib; sourceTree = "<group>"; };
+		C6B9839F12F08B060030AE19 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C6B983A012F08B060030AE19 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C6B983A112F08B060030AE19 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		C6B984A812F0A04E0030AE19 /* detailheader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detailheader.jpg; sourceTree = "<group>"; };
+		C6B9860312F0C1930030AE19 /* tablebackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tablebackground.jpg; sourceTree = "<group>"; };
+		C6B9861112F0C2DF0030AE19 /* tablebackground-riot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tablebackground-riot.jpg"; sourceTree = "<group>"; };
+		C6D6181212FC84FD005C2456 /* list-placeholder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "list-placeholder.jpeg"; sourceTree = "<group>"; };
+		C6D6181312FC84FD005C2456 /* send.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = send.jpeg; sourceTree = "<group>"; };
+		C6DEE3F512F4C92E001F98E2 /* x_button_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x_button_close.png; sourceTree = "<group>"; };
+		C6DEE46B12F4D990001F98E2 /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController.h; sourceTree = "<group>"; };
+		C6DEE46C12F4D990001F98E2 /* ResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceViewController.m; sourceTree = "<group>"; };
+		C6DEE46D12F4D990001F98E2 /* ResourceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResourceViewController.xib; sourceTree = "<group>"; };
+		C6DEE47612F4DA5C001F98E2 /* resourcesbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resourcesbackground.jpg; sourceTree = "<group>"; };
+		C6DEE4B412F4DC9D001F98E2 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		C6DEE4B512F4DC9D001F98E2 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		C6DEE4B612F4DC9D001F98E2 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		C6DEE4C712F4DF61001F98E2 /* aboutbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aboutbackground.jpg; sourceTree = "<group>"; };
+		C6DEE4C812F4DF61001F98E2 /* contactbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contactbackground.jpg; sourceTree = "<group>"; };
+		C6DEE4D812F4DFD3001F98E2 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		C6DEE4D912F4DFD3001F98E2 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		C6DEE4DA12F4DFD3001F98E2 /* ContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		C6F6705512F9058D00F32F45 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C6F6705612F9058D00F32F45 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				C6B9822012EFCDDF0030AE19 /* QuartzCore.framework in Frameworks */,
+				C600310F12F62ECC00E46CC1 /* SystemConfiguration.framework in Frameworks */,
+				C600311312F62ED400E46CC1 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RevelAndRiot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E324111B887F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C6B980FB12EFB9610030AE19 /* MainViewController */,
+				C6B980FC12EFB9720030AE19 /* AppDelegate */,
+				C6B9812112EFBC620030AE19 /* Images */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		2860E32A111B888700E27156 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43A7C1306314500AD58A1 /* MainViewController */,
+				C6B43A761306311F00AD58A1 /* AppDelegate */,
+				C6B43ACD1306361F00AD58A1 /* Images */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43D9C13066F8400AD58A1 /* Default-PortraitUpsideDown.png */,
+				C6B43D8713066E5400AD58A1 /* Default-Portrait.png */,
+				C6619A7912FD0BD8006340FE /* Reachability.h */,
+				C6619A7A12FD0BD8006340FE /* Reachability.m */,
+				C671DDC712FB4C7100289CA0 /* Default.png */,
+				C6F6705512F9058D00F32F45 /* Icon-72.png */,
+				C6F6705612F9058D00F32F45 /* Icon.png */,
+				8D1107310486CEB800E47090 /* RevelAndRiot-Info.plist */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32A111B888700E27156 /* iPad */,
+				2860E324111B887F00E27156 /* iPhone */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* RevelAndRiot_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				C6B9821F12EFCDDF0030AE19 /* QuartzCore.framework */,
+				C600310E12F62ECC00E46CC1 /* SystemConfiguration.framework */,
+				C600311212F62ED400E46CC1 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6AEB50F12F109A60088AE06 /* PhotoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6AEB55212F110EC0088AE06 /* PhotoDetailController */,
+				C6AEB51012F109C20088AE06 /* PhotoViewController.h */,
+				C6AEB51112F109C20088AE06 /* PhotoViewController.m */,
+				C6AEB51212F109C20088AE06 /* PhotoViewController.xib */,
+			);
+			name = PhotoViewController;
+			sourceTree = "<group>";
+		};
+		C6AEB55212F110EC0088AE06 /* PhotoDetailController */ = {
+			isa = PBXGroup;
+			children = (
+				C683C84112F1250300420742 /* PhotoDetailController.h */,
+				C683C84212F1250300420742 /* PhotoDetailController.m */,
+				C683C84312F1250300420742 /* PhotoDetailController.xib */,
+			);
+			name = PhotoDetailController;
+			sourceTree = "<group>";
+		};
+		C6B43A761306311F00AD58A1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32B111B888700E27156 /* AppDelegate_iPad.h */,
+				2860E32C111B888700E27156 /* AppDelegate_iPad.m */,
+				2860E32D111B888700E27156 /* MainWindow_iPad.xib */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C6B43A7C1306314500AD58A1 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43A881306328700AD58A1 /* MainViewController_iPad.h */,
+				C6B43A891306328700AD58A1 /* MainViewController_iPad.m */,
+				C6B43A8A1306328700AD58A1 /* MainViewController_iPad.xib */,
+				C6B43AF3130637DF00AD58A1 /* NewsViewController */,
+				C6B43C5A1306557200AD58A1 /* PhotoViewController */,
+				C6B43CD013065C2B00AD58A1 /* ResourceViewController */,
+				C6B43CFC1306627700AD58A1 /* AboutViewController */,
+				C6B43D301306660A00AD58A1 /* ContactViewController */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		C6B43ACD1306361F00AD58A1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43CE513065D6800AD58A1 /* resourceView_iPad.jpg */,
+				C6B43BA31306495400AD58A1 /* tablebackground_revel.jpg */,
+				C6B43BA41306495400AD58A1 /* tablebackground_riot.jpg */,
+				C6B43ACF1306363900AD58A1 /* mainView_iPad.jpg */,
+				C6B43B1813063B0900AD58A1 /* newsView_iPad.jpg */,
+				C6B43C0713064F0800AD58A1 /* detailView_iPad.jpg */,
+				C6B43C751306574900AD58A1 /* photoView_iPad.jpg */,
+				C6B43C8A1306589F00AD58A1 /* PhotoDetail_iPad.jpg */,
+				C6B43D02130662D300AD58A1 /* AboutView_iPad.jpg */,
+				C6B43D2E1306660100AD58A1 /* contactView_iPad.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C6B43AF3130637DF00AD58A1 /* NewsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43C0913064F0B00AD58A1 /* DetailViewController */,
+				C6B43B4713063E9F00AD58A1 /* Cells */,
+				C6B43AF4130637F100AD58A1 /* NewsViewController_iPad.h */,
+				C6B43AF5130637F100AD58A1 /* NewsViewController_iPad.m */,
+				C6B43AF6130637F100AD58A1 /* NewsViewController_iPad.xib */,
+			);
+			name = NewsViewController;
+			sourceTree = "<group>";
+		};
+		C6B43B4713063E9F00AD58A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43B4813063EBC00AD58A1 /* revelViewCell_iPad.h */,
+				C6B43B4913063EBC00AD58A1 /* revelViewCell_iPad.m */,
+				C6B43B4C13063F0900AD58A1 /* revelViewCell_iPad.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C6B43C0913064F0B00AD58A1 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43C0A1306501600AD58A1 /* DetailViewController_iPad.h */,
+				C6B43C0B1306501600AD58A1 /* DetailViewController_iPad.m */,
+				C6B43C0C1306501600AD58A1 /* DetailViewController_iPad.xib */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		C6B43C5A1306557200AD58A1 /* PhotoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43C841306585000AD58A1 /* PhotoDetailController */,
+				C6B43C5B1306558100AD58A1 /* PhotoViewController_iPad.h */,
+				C6B43C5C1306558100AD58A1 /* PhotoViewController_iPad.m */,
+				C6B43C5D1306558100AD58A1 /* PhotoViewController_iPad.xib */,
+			);
+			name = PhotoViewController;
+			sourceTree = "<group>";
+		};
+		C6B43C841306585000AD58A1 /* PhotoDetailController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43C851306585C00AD58A1 /* PhotoDetailController_iPad.h */,
+				C6B43C861306585C00AD58A1 /* PhotoDetailController_iPad.m */,
+				C6B43C871306585C00AD58A1 /* PhotoDetailController_iPad.xib */,
+			);
+			name = PhotoDetailController;
+			sourceTree = "<group>";
+		};
+		C6B43CD013065C2B00AD58A1 /* ResourceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43CD113065C3A00AD58A1 /* ResourceViewController_iPad.h */,
+				C6B43CD213065C3A00AD58A1 /* ResourceViewController_iPad.m */,
+				C6B43CD313065C3A00AD58A1 /* ResourceViewController_iPad.xib */,
+			);
+			name = ResourceViewController;
+			sourceTree = "<group>";
+		};
+		C6B43CFC1306627700AD58A1 /* AboutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43CFD1306628700AD58A1 /* AboutViewController_iPad.h */,
+				C6B43CFE1306628700AD58A1 /* AboutViewController_iPad.m */,
+				C6B43CFF1306628700AD58A1 /* AboutViewController_iPad.xib */,
+			);
+			name = AboutViewController;
+			sourceTree = "<group>";
+		};
+		C6B43D301306660A00AD58A1 /* ContactViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B43D311306661D00AD58A1 /* ContactViewController_iPad.h */,
+				C6B43D321306661D00AD58A1 /* ContactViewController_iPad.m */,
+				C6B43D331306661D00AD58A1 /* ContactViewController_iPad.xib */,
+			);
+			name = ContactViewController;
+			sourceTree = "<group>";
+		};
+		C6B980FB12EFB9610030AE19 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B980F012EFB8650030AE19 /* MainViewController.h */,
+				C6B980F112EFB8650030AE19 /* MainViewController.m */,
+				C6B980F212EFB8650030AE19 /* MainViewController.xib */,
+				C6B981AC12EFC5EA0030AE19 /* NewsViewController */,
+				C6AEB50F12F109A60088AE06 /* PhotoViewController */,
+				C6DEE46A12F4D965001F98E2 /* ResourceViewController */,
+				C6DEE4B212F4DC87001F98E2 /* AboutViewController */,
+				C6DEE4D712F4DFC3001F98E2 /* ContactViewController */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		C6B980FC12EFB9720030AE19 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
+				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
+				2860E327111B887F00E27156 /* MainWindow_iPhone.xib */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C6B9812112EFBC620030AE19 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C6D6181212FC84FD005C2456 /* list-placeholder.jpeg */,
+				C6D6181312FC84FD005C2456 /* send.jpeg */,
+				C6DEE4C712F4DF61001F98E2 /* aboutbackground.jpg */,
+				C6DEE4C812F4DF61001F98E2 /* contactbackground.jpg */,
+				C6DEE47612F4DA5C001F98E2 /* resourcesbackground.jpg */,
+				C6DEE3F512F4C92E001F98E2 /* x_button_close.png */,
+				C6AEB51612F10EA00088AE06 /* photobackground-detail.jpg */,
+				C6AEB51712F10EA00088AE06 /* photobackground.jpg */,
+				C6B9861112F0C2DF0030AE19 /* tablebackground-riot.jpg */,
+				C6B9860312F0C1930030AE19 /* tablebackground.jpg */,
+				C6B984A812F0A04E0030AE19 /* detailheader.jpg */,
+				C6B9824C12EFDCD70030AE19 /* newsfooter.jpg */,
+				C6B9824D12EFDCD70030AE19 /* newsheader.jpg */,
+				C6B9812312EFBC6D0030AE19 /* mainscreen.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C6B981AC12EFC5EA0030AE19 /* NewsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9839E12F08AE00030AE19 /* DetailViewController */,
+				C6B9831112EFFE3A0030AE19 /* Cells */,
+				C6B981A712EFC5E60030AE19 /* NewsViewController.h */,
+				C6B981A812EFC5E60030AE19 /* NewsViewController.m */,
+				C6B981A912EFC5E60030AE19 /* NewsViewController.xib */,
+			);
+			name = NewsViewController;
+			sourceTree = "<group>";
+		};
+		C6B9831112EFFE3A0030AE19 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9830E12EFFE360030AE19 /* revelViewCell.h */,
+				C6B9830F12EFFE360030AE19 /* revelViewCell.m */,
+				C6B9831212F001C70030AE19 /* revelViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C6B9839E12F08AE00030AE19 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9839F12F08B060030AE19 /* DetailViewController.h */,
+				C6B983A012F08B060030AE19 /* DetailViewController.m */,
+				C6B983A112F08B060030AE19 /* DetailViewController.xib */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		C6DEE46A12F4D965001F98E2 /* ResourceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6DEE46B12F4D990001F98E2 /* ResourceViewController.h */,
+				C6DEE46C12F4D990001F98E2 /* ResourceViewController.m */,
+				C6DEE46D12F4D990001F98E2 /* ResourceViewController.xib */,
+			);
+			name = ResourceViewController;
+			sourceTree = "<group>";
+		};
+		C6DEE4B212F4DC87001F98E2 /* AboutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6DEE4B412F4DC9D001F98E2 /* AboutViewController.h */,
+				C6DEE4B512F4DC9D001F98E2 /* AboutViewController.m */,
+				C6DEE4B612F4DC9D001F98E2 /* AboutViewController.xib */,
+			);
+			name = AboutViewController;
+			sourceTree = "<group>";
+		};
+		C6DEE4D712F4DFC3001F98E2 /* ContactViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6DEE4D812F4DFD3001F98E2 /* ContactViewController.h */,
+				C6DEE4D912F4DFD3001F98E2 /* ContactViewController.m */,
+				C6DEE4DA12F4DFD3001F98E2 /* ContactViewController.xib */,
+			);
+			name = ContactViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RevelAndRiot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RevelAndRiot" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevelAndRiot;
+			productName = RevelAndRiot;
+			productReference = 1D6058910D05DD3D006BFB54 /* RevelAndRiot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RevelAndRiot" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RevelAndRiot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
+				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
+				C6B980F412EFB8650030AE19 /* MainViewController.xib in Resources */,
+				C6B9812412EFBC6D0030AE19 /* mainscreen.jpg in Resources */,
+				C6B981AB12EFC5E60030AE19 /* NewsViewController.xib in Resources */,
+				C6B9824E12EFDCD70030AE19 /* newsfooter.jpg in Resources */,
+				C6B9824F12EFDCD70030AE19 /* newsheader.jpg in Resources */,
+				C6B9831312F001C70030AE19 /* revelViewCell.xib in Resources */,
+				C6B983A312F08B060030AE19 /* DetailViewController.xib in Resources */,
+				C6B984A912F0A04E0030AE19 /* detailheader.jpg in Resources */,
+				C6B9860412F0C1930030AE19 /* tablebackground.jpg in Resources */,
+				C6B9861212F0C2DF0030AE19 /* tablebackground-riot.jpg in Resources */,
+				C6AEB51412F109C20088AE06 /* PhotoViewController.xib in Resources */,
+				C6AEB51812F10EA00088AE06 /* photobackground-detail.jpg in Resources */,
+				C6AEB51912F10EA00088AE06 /* photobackground.jpg in Resources */,
+				C683C84512F1250300420742 /* PhotoDetailController.xib in Resources */,
+				C6DEE3F612F4C92E001F98E2 /* x_button_close.png in Resources */,
+				C6DEE46F12F4D990001F98E2 /* ResourceViewController.xib in Resources */,
+				C6DEE47712F4DA5C001F98E2 /* resourcesbackground.jpg in Resources */,
+				C6DEE4B812F4DC9D001F98E2 /* AboutViewController.xib in Resources */,
+				C6DEE4C912F4DF61001F98E2 /* aboutbackground.jpg in Resources */,
+				C6DEE4CA12F4DF61001F98E2 /* contactbackground.jpg in Resources */,
+				C6DEE4DC12F4DFD3001F98E2 /* ContactViewController.xib in Resources */,
+				C6F6705712F9058D00F32F45 /* Icon-72.png in Resources */,
+				C6F6705812F9058D00F32F45 /* Icon.png in Resources */,
+				C671DDC812FB4C7100289CA0 /* Default.png in Resources */,
+				C6D6181412FC84FD005C2456 /* list-placeholder.jpeg in Resources */,
+				C6D6181512FC84FE005C2456 /* send.jpeg in Resources */,
+				C6B43A8C1306328700AD58A1 /* MainViewController_iPad.xib in Resources */,
+				C6B43AD01306363900AD58A1 /* mainView_iPad.jpg in Resources */,
+				C6B43AF8130637F100AD58A1 /* NewsViewController_iPad.xib in Resources */,
+				C6B43B1913063B0900AD58A1 /* newsView_iPad.jpg in Resources */,
+				C6B43B4D13063F0900AD58A1 /* revelViewCell_iPad.xib in Resources */,
+				C6B43BA51306495400AD58A1 /* tablebackground_revel.jpg in Resources */,
+				C6B43BA61306495400AD58A1 /* tablebackground_riot.jpg in Resources */,
+				C6B43C0813064F0800AD58A1 /* detailView_iPad.jpg in Resources */,
+				C6B43C0E1306501600AD58A1 /* DetailViewController_iPad.xib in Resources */,
+				C6B43C5F1306558100AD58A1 /* PhotoViewController_iPad.xib in Resources */,
+				C6B43C761306574900AD58A1 /* photoView_iPad.jpg in Resources */,
+				C6B43C891306585C00AD58A1 /* PhotoDetailController_iPad.xib in Resources */,
+				C6B43C8B1306589F00AD58A1 /* PhotoDetail_iPad.jpg in Resources */,
+				C6B43CD513065C3A00AD58A1 /* ResourceViewController_iPad.xib in Resources */,
+				C6B43CE613065D6800AD58A1 /* resourceView_iPad.jpg in Resources */,
+				C6B43D011306628700AD58A1 /* AboutViewController_iPad.xib in Resources */,
+				C6B43D03130662D300AD58A1 /* AboutView_iPad.jpg in Resources */,
+				C6B43D2F1306660100AD58A1 /* contactView_iPad.jpg in Resources */,
+				C6B43D351306661D00AD58A1 /* ContactViewController_iPad.xib in Resources */,
+				C6B43D8813066E5400AD58A1 /* Default-Portrait.png in Resources */,
+				C6B43D9D13066F8400AD58A1 /* Default-PortraitUpsideDown.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
+				2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */,
+				C6B980F312EFB8650030AE19 /* MainViewController.m in Sources */,
+				C6B981AA12EFC5E60030AE19 /* NewsViewController.m in Sources */,
+				C6B9831012EFFE360030AE19 /* revelViewCell.m in Sources */,
+				C6B983A212F08B060030AE19 /* DetailViewController.m in Sources */,
+				C6AEB51312F109C20088AE06 /* PhotoViewController.m in Sources */,
+				C683C84412F1250300420742 /* PhotoDetailController.m in Sources */,
+				C6DEE46E12F4D990001F98E2 /* ResourceViewController.m in Sources */,
+				C6DEE4B712F4DC9D001F98E2 /* AboutViewController.m in Sources */,
+				C6DEE4DB12F4DFD3001F98E2 /* ContactViewController.m in Sources */,
+				C6619A7B12FD0BD8006340FE /* Reachability.m in Sources */,
+				C6B43A8B1306328700AD58A1 /* MainViewController_iPad.m in Sources */,
+				C6B43AF7130637F100AD58A1 /* NewsViewController_iPad.m in Sources */,
+				C6B43B4A13063EBC00AD58A1 /* revelViewCell_iPad.m in Sources */,
+				C6B43C0D1306501600AD58A1 /* DetailViewController_iPad.m in Sources */,
+				C6B43C5E1306558100AD58A1 /* PhotoViewController_iPad.m in Sources */,
+				C6B43C881306585C00AD58A1 /* PhotoDetailController_iPad.m in Sources */,
+				C6B43CD413065C3A00AD58A1 /* ResourceViewController_iPad.m in Sources */,
+				C6B43D001306628700AD58A1 /* AboutViewController_iPad.m in Sources */,
+				C6B43D341306661D00AD58A1 /* ContactViewController_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RevelAndRiot_Prefix.pch;
+				INFOPLIST_FILE = "RevelAndRiot-Info.plist";
+				PRODUCT_NAME = RevelAndRiot;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RevelAndRiot_Prefix.pch;
+				INFOPLIST_FILE = "RevelAndRiot-Info.plist";
+				PRODUCT_NAME = RevelAndRiot;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RevelAndRiot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RevelAndRiot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
